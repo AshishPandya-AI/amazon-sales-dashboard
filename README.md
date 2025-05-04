@@ -129,10 +129,9 @@ Below are key visualizations from the Power BI dashboard, showcasing dynamic ins
 
 ---
 
-
 ## 🙌 Acknowledgments
 
-This project was developed by **Ashish Pandya** as part of the final dashboarding assignment for the Artificial Intelligence with Data Analytics (AIDA) program at **Saskatchewan Polytechnic, Regina**.  
+This project was developed by **Ashish Pandya** as part of my **major course project** in the field of dashboarding and data analytics.  
 Special thanks to my mentors and classmates who provided feedback during dashboard development.
 
 ---
@@ -140,10 +139,7 @@ Special thanks to my mentors and classmates who provided feedback during dashboa
 ## 📬 Author
 
 **Ashish Pandya**  
-📘 AIDA Program | Saskatchewan Polytechnic  
+📘 AIDA Program  
 📍 Regina, SK, Canada  
 📧 Email: [drashishpandya@example.com]  
-🔗 GitHub: [github.com/Ashishpandya-AI]
-
-
-
+🔗 GitHub: [github.com/Ashishpandya-AI](https://github.com/Ashishpandya-AI)
