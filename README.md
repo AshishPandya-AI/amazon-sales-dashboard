@@ -129,26 +129,6 @@ Below are key visualizations from the Power BI dashboard, showcasing dynamic ins
 
 ---
 
-## 🗂️ Project Folder Structure
-
-amazon-sales-dashboard/
-├── data/
-│ └── Amazon Sale Report.csv
-├── screenshots/
-│ ├── 01_introduction.png
-│ ├── 02_executive_summary.png
-│ ├── 03_dashboard_overview.png
-│ ├── 04_size_vs_status.png
-│ ├── 05_category_summary.png
-│ ├── 06_sales_table.png
-│ ├── 07_tooltip_card.png
-│ └── 08_state_category_distribution.png
-├── README.md
-└── .gitignore
-
-
-
----
 
 ## 🙌 Acknowledgments
 
