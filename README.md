@@ -17,7 +17,8 @@ The objective of this dashboard is to evaluate key sales metrics across India by
 ## 📁 Data Source
 
 The dataset used for this report includes:
-- 📄 **Amazon Sale Report.csv** (custom-generated for academic purposes)
+- 📄 **Amazon Sale Report.csv**
+- ![Dataset](https://drive.google.com/file/d/1ERd61P_1zFFQN_apLWaL7fQIp3UHppyP/view?usp=sharing)
 - Contains order details, product attributes, fulfillment channels, ship cities, and states
 
 ---
