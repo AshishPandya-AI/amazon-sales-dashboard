@@ -18,7 +18,7 @@ The objective of this dashboard is to evaluate key sales metrics across India by
 
 The dataset used for this report includes:
 - 📄 **Amazon Sale Report.csv**
-- [Download Amazon Sale Report (CSV)](https://drive.google.com/file/d/1ERd61P_1zFFQN_apLWaL7fQIp3UHppyP/view?usp=sharing)
+- [Download Amazon Sale Dataset (CSV)](https://drive.google.com/file/d/1ERd61P_1zFFQN_apLWaL7fQIp3UHppyP/view?usp=sharing)
 - Contains order details, product attributes, fulfillment channels, ship cities, and states
 
 ---
@@ -56,41 +56,65 @@ The dataset used for this report includes:
 
 ---
 
-## 🖼️ Screenshots from Power BI Report
+## 📸 Screenshots
 
-### 📄 Introduction & Executive Summary
-![Introduction](screenshots/01_introduction.png)
-![Executive Summary](screenshots/02_executive_summary.png)
+Below are key visualizations from the Power BI dashboard, showcasing dynamic insights from Amazon's 2022 sales data.
 
----
+### 🧠 Executive Summary & Dashboard Overview
 
-### 📊 Dashboard Overview
-![Dashboard](screenshots/03_dashboard_overview.png)
-
----
-
-### 📦 Product Size vs Ship Status
-![Size vs Ship Status](screenshots/04_size_vs_status.png)
-
----
-
-### 📋 Category Sales Summary
-![Category Sales](screenshots/05_category_summary.png)
+<table>
+  <tr>
+    <td><img src="Screenshots/Amazon Sales Report Analysis.PNG" width="400"/></td>
+    <td><img src="Screenshots/Executive Summary.PNG" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">Introduction</td>
+    <td align="center">Executive Summary</td>
+  </tr>
+</table>
 
 ---
 
-### 📅 Monthly Sales Table
-![Sales Table](screenshots/06_sales_table.png)
+### 📊 Dashboard & Ship Status Insights
+
+<table>
+  <tr>
+    <td><img src="Screenshots/Dashboard Overview.PNG" width="400"/></td>
+    <td><img src="Screenshots/Product Size vs Ship Status.PNG" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">Main Dashboard</td>
+    <td align="center">Size vs Ship Status</td>
+  </tr>
+</table>
 
 ---
 
-### 🧩 Tooltip Card for Quick Metrics
-![Tooltip Card](screenshots/07_tooltip_card.png)
+### 🛒 Category Analysis & Quick Metric View
+
+<table>
+  <tr>
+    <td><img src="Screenshots/State vs Category Distribution.PNG" width="400"/></td>
+    <td><img src="Screenshots/Tooltip Card for Quick Metrics.PNG" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">Category Distribution</td>
+    <td align="center">Tooltip View</td>
+  </tr>
+</table>
 
 ---
 
-### 🌍 State vs Category Distribution
-![State vs Category](screenshots/08_state_category_distribution.png)
+### 🌍 Regional Sales by Category
+
+<table>
+  <tr>
+    <td><img src="Screenshots/state vs catoget.PNG" width="400"/></td>
+  </tr>
+  <tr>
+    <td align="center">State vs Category Sales</td>
+  </tr>
+</table>
 
 ---
 
