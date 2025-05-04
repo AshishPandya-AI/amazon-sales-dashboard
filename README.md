@@ -2,103 +2,149 @@
 A Power BI dashboard analyzing Amazon sales data to uncover trends in product performance, shipping efficiency, and regional demand. This project explores over 120,000 orders, highlighting top-selling categories, popular delivery channels, and size-based sales behavior to guide better inventory and business decisions.
 # 📊 Amazon Sales Dashboard – Power BI Project
 
-This Power BI project presents a deep-dive analysis of Amazon's sales data from 2022, covering over **120,000 orders**. It provides insights into **product performance**, **order fulfillment**, and **geographic trends** to aid better decision-making, inventory optimization, and customer satisfaction.
+This project provides a comprehensive analysis of Amazon's sales data from 2022, focusing on trends in product performance, geographic demand, and shipping efficiency. Using over **128,975 records**, this Power BI dashboard offers deep insights to help optimize inventory, identify top-selling categories, and improve fulfillment strategies.
 
 ---
 
-## 📌 Project Overview
+## 🎯 Objective
 
-- **Tool Used**: Microsoft Power BI
-- **Dataset**: Amazon Sale Report (CSV format)
-- **Total Records**: 128,975
-- **Report Author**: Ashish Pandya  
-- **Program**: Artificial Intelligence with Data Analytics (AIDA)  
-- **Institution**: Saskatchewan Polytechnic, Regina, SK, Canada
-
----
-
-## 🎯 Objectives
-
-- Understand product sales trends across Indian states and cities.
-- Analyze fulfillment efficiency by Amazon vs Merchant Partners.
-- Evaluate product performance based on **Style**, **Size**, and **Category**.
-- Identify top contributing **cities**, **states**, and **sales channels**.
+The objective of this dashboard is to evaluate key sales metrics across India by analyzing:
+- Popular product **categories, sizes, and styles**
+- **City- and state-level** demand patterns
+- **Fulfillment performance** between Amazon and merchant sellers
+- Revenue and quantity distributions across **channels and regions**
 
 ---
 
-## 🧾 Report Pages & Screenshots
+## 📁 Data Source
 
-### 1. 📄 Introduction
-Overview of project, scope, and dataset used.
+The dataset used for this report includes:
+- 📄 **Amazon Sale Report.csv** (custom-generated for academic purposes)
+- Contains order details, product attributes, fulfillment channels, ship cities, and states
 
+---
+
+## ⚙️ Power BI Features and Techniques
+
+### 🧩 Data Modeling
+- Linked multiple fields for city, state, and channel relationships
+- Custom **hierarchies** for drill-downs (e.g., state → city)
+
+### 🔄 Data Transformation (Power Query)
+- Converted string dates to datetime format
+- Removed duplicates and handled nulls
+- Calculated derived columns like revenue per category
+- Implemented filters for dynamic slicers
+
+### 📐 Measures & Calculations
+- Total Quantity, Sales, Avg. Sales per Order
+- Grouped measures for size and shipping status comparisons
+
+### 🔐 Security & UX
+- Used **slicers** for Ship Status, State, Channel, Month
+- Tooltips, buttons, and bookmarks for smoother navigation
+- Custom visuals and themes for clarity
+
+---
+
+## 🔍 Analytics Questions Addressed
+
+- Which cities and states have the highest number of orders?
+- What are the top-selling product categories and sizes?
+- How do Amazon vs Merchant fulfillment channels perform?
+- What price ranges drive the most revenue?
+- How does product size affect shipping success or cancellation?
+
+---
+
+## 🖼️ Screenshots from Power BI Report
+
+### 📄 Introduction & Executive Summary
 ![Introduction](screenshots/01_introduction.png)
-
----
-
-### 2. 🧠 Executive Summary
-Highlights top categories, cities, and key patterns in order fulfillment and sales trends.
-
 ![Executive Summary](screenshots/02_executive_summary.png)
 
 ---
 
-### 3. 📈 Amazon Sales Dashboard 2022
-Comprehensive view with:
-- Top cities by order volume
-- Total sales & quantity
-- Monthly trends
-- Map view of order distribution
-
-![Dashboard Overview](screenshots/03_dashboard_overview.png)
+### 📊 Dashboard Overview
+![Dashboard](screenshots/03_dashboard_overview.png)
 
 ---
 
-### 4. 👗 Product Size vs Ship Status
-Visualizes how size affects shipment outcomes (shipped, cancelled, pending, etc.)
-
-![Product Size vs Ship Status](screenshots/04_size_vs_status.png)
+### 📦 Product Size vs Ship Status
+![Size vs Ship Status](screenshots/04_size_vs_status.png)
 
 ---
 
-### 5. 🛒 Category Sales Summary
-Breakdown of total quantity and sales per product category.
-
-![Category Summary](screenshots/05_category_summary.png)
+### 📋 Category Sales Summary
+![Category Sales](screenshots/05_category_summary.png)
 
 ---
 
-### 6. 📅 Detailed Sales Table
-Time-wise sales data across cities and states.
-
+### 📅 Monthly Sales Table
 ![Sales Table](screenshots/06_sales_table.png)
 
 ---
 
-### 7. 🧩 Tooltip Visual
-Compact summary of key metrics for quick hover insight.
-
+### 🧩 Tooltip Card for Quick Metrics
 ![Tooltip Card](screenshots/07_tooltip_card.png)
 
 ---
 
-### 8. 🌍 State-wise Category Distribution
-Shows how categories like Kurta, Set, Top perform across different states.
-
-![State Category Distribution](screenshots/08_state_category_distribution.png)
+### 🌍 State vs Category Distribution
+![State vs Category](screenshots/08_state_category_distribution.png)
 
 ---
 
-## 📊 Key Insights
+## 💡 Key Insights
 
-- **Bengaluru**, **Hyderabad**, and **Mumbai** are top-performing cities.
-- “**Set**” and “**Kurta**” are the most sold categories.
-- Sizes **M, L, XL** dominate order volume.
-- Fulfillment by **Amazon** shows faster delivery and fewer cancellations.
-- Most products are priced between **₹449 – ₹788**.
-- Telangana and Uttar Pradesh lead in regional sales.
+- **Bengaluru**, **Hyderabad**, and **Mumbai** dominate in total orders
+- **Sets** and **Kurtas** are the highest-selling categories
+- Sizes **M, L, XL** are most in demand
+- **Amazon's own fulfillment** is faster and more successful than merchant delivery
+- Products priced ₹449–₹788 account for majority of orders
+- **Telangana** and **Uttar Pradesh** top the state-wise sales charts
 
 ---
 
-## 📁 Folder Structure
+## 🗂️ Project Folder Structure
 
+amazon-sales-dashboard/
+├── data/
+│ └── Amazon Sale Report.csv
+├── screenshots/
+│ ├── 01_introduction.png
+│ ├── 02_executive_summary.png
+│ ├── 03_dashboard_overview.png
+│ ├── 04_size_vs_status.png
+│ ├── 05_category_summary.png
+│ ├── 06_sales_table.png
+│ ├── 07_tooltip_card.png
+│ └── 08_state_category_distribution.png
+├── README.md
+└── .gitignore
+
+
+
+---
+
+## 🙌 Acknowledgments
+
+This project was developed by **Ashish Pandya** as part of the final dashboarding assignment for the Artificial Intelligence with Data Analytics (AIDA) program at **Saskatchewan Polytechnic, Regina**.  
+Special thanks to my mentors and classmates who provided feedback during dashboard development.
+
+---
+
+## 📬 Author
+
+**Ashish Pandya**  
+📘 AIDA Program | Saskatchewan Polytechnic  
+📍 Regina, SK, Canada  
+📧 Email: [drashishpandya@example.com]  
+🔗 GitHub: [github.com/Ashishpandya-AI]
+
+---
+
+## 🛡 License
+
+This repository is intended for academic and educational purposes. Attribution is appreciated if reused.
 
