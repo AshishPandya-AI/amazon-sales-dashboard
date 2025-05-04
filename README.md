@@ -145,9 +145,5 @@ Special thanks to my mentors and classmates who provided feedback during dashboa
 📧 Email: [drashishpandya@example.com]  
 🔗 GitHub: [github.com/Ashishpandya-AI]
 
----
 
-## 🛡 License
-
-This repository is intended for academic and educational purposes. Attribution is appreciated if reused.
 
