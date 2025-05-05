@@ -1,0 +1,40 @@
+# Ignore Power BI temp and backup files
+*.pbix~*
+*.tmp
+
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Ignore folders typically not needed in repo
+__pycache__/
+.ipynb_checkpoints/
+node_modules/
+.vscode/
+.env
+
+# Ignore Excel cache and temporary files
+~$*.xlsx
+~$*.xls
+*.bak
+
+# Ignore logs and config history
+*.log
+*.DS_Store
+
+# Optional: ignore screenshots if not needed in repo
+# /Screenshots/
+
+# Ignore zipped archives
+*.zip
+*.rar
+*.7z
+
+# Ignore Python virtual envs (if used)
+env/
+venv/
+
+# Ignore personal workspace or output files
+*.pdf
+*.pptx
